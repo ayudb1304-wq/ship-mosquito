@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Lora, Noto_Serif } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next"
 
 const notoSerifHeading = Noto_Serif({subsets:['latin'],variable:'--font-heading'});
 
